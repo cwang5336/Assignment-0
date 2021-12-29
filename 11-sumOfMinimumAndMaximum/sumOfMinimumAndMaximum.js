@@ -1,14 +1,9 @@
 function sumOfMinimumAndMaximum(nums) {
   // Insert code here;
-  var count = 0;
 
-  for (var i = 0; i < nums.length; i++) {
-    if (nums[i] >= start && nums[i] <= end) {
-      count++;
-    }
-  }
-  
-  return count;
+let min = Math.min(...nums);
+let max = Math.max(...nums);
+return min + max;
 }
 
 // Do not edit this line;
